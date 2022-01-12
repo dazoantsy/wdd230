@@ -1,1 +1,3 @@
-document.getElementById("update").innerHTML = document.lastModified
+let update = document.getElementById("update");
+update.innerHTML = `Last updated: ${document.lastModified}`;
+alert('ok');
