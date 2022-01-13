@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One|Red+Hat+Display&display=swap');
+
 header, main {
     font-family: "Fredoka One", Arial, sans-serif;
+    padding: 1em;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  header {
+    background-color: #A7D4DC;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .picture {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto 0;
+  }
+
+  .name {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin: auto 0;
+  }
+
+  .title {
+    margin: auto 0;
+  }
+
+  footer {
+    background-color: #A7D4DC;
+    padding: 1em;
   }
