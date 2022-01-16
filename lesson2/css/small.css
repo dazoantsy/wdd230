@@ -4,12 +4,9 @@
     }
     
     main {
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .grid {
-        grid-gap: 0;
     }
 
     #design1 {
@@ -29,10 +26,5 @@
 
     img {
         padding: 0;
-    }
-
-    #alibaba {
-        width: 30%;
-        height: auto;
     }
 }
