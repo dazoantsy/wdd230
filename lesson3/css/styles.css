@@ -86,36 +86,31 @@ img.logo {
     background-color: #CEBEBE;
     color: black;
 }
-/*
-          <td class="background1">#A7D4DC</td>
-          <td class="background2">#13242A</td>
-          <td class="accent1">#8E010F</td>
-          <td class="accent2">#CEBEBE</td>  */
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #CEBEBE;
-    font-family: 'Dongle', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-nav ul li {
-    float: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #C5EDAC;
 }
 
 nav ul li a {
     display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #13242A;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 5px;
+    transition: background 0.25s, box-shadow 0.15s;
 }
 
 nav ul li a:hover {
-    background-color: #8E010F;
-    color: white;
+    color: #8E010F;
+    background: #CEBEBE;
+    box-shadow: 0px 4px 0px 0px #8E010F;
 }
