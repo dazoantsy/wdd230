@@ -70,6 +70,12 @@ nav ul {
 nav ul.open {
     display: block;
 }
+
+nav ul li:hover {
+    background-color: #CEBEBE;
+    border-bottom: 5px solid #8E010F;
+}
+
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
