@@ -15,7 +15,7 @@ let date = document.getElementById("date");
 date.innerHTML = `${dayName}, ${day} ${montName} ${year}`
 
 //Display the Footer
-let footer = document.getElementById("footer");
+let footer = document.getElementById("footer2");
 footer.innerHTML = `WDD 230 Project | Last updated: ${document.lastModified}`;
 
 //Toggle Menu

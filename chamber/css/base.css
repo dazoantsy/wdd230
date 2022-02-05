@@ -114,6 +114,6 @@ footer div.foot {
     grid-column: span 2;
 }
 
-footer div.foot p {
-    margin: 0;
+footer div p {
+    margin: 0 0 0 0;
 }
