@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nunito:wght@200&family=Prompt:wght@700&display=swap');
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+div {
+    border: 1px solid rgba(0,0,0,0.5);
+    margin: .5rem;
+    padding: .5rem;
+}
+
+main div {
+    color: #13242A;
+    background-color: #e7e6e6;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background-color: #13242A;
+    color: #C5EDAC;
+    font-family: 'Prompt', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+}
+
+.spotlight3, .join {
+    display: none;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav {
+    background-color: #C5EDAC;
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.displayDate {
+    grid-column: span 2;
+    grid-row: 3;
+    text-align: center;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.open {
+    display: block;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+body {
+    background-color: #A7D4DC;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    background-color: #13242A;
+    color: #C5EDAC;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: .8rem;
+    font-size: smaller;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+footer div {
+    border: none;
+}
+
+footer div.address p {
+    margin: 0;
+    color: white;
+}
+
+footer div.foot {
+    grid-column: span 2;
+}
+
+footer div.foot p {
+    margin: 0;
+}

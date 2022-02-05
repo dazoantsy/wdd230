@@ -1,0 +1,27 @@
+@media only screen and (min-width: 35rem) {
+
+    header {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .join {
+        display: block;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    footer {
+        grid-template-columns: 200px 1fr;
+    }
+}
