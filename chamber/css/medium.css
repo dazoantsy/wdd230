@@ -1,7 +1,11 @@
 @media only screen and (min-width: 35rem) {
 
     header {
-        grid-template-columns: 200px 1fr;
+        grid-template-columns: 200px 1fr 200px;
+    }
+
+    .social {
+        margin-top: 1.5rem;
     }
 
     main {
@@ -38,19 +42,6 @@
     .weather {
         grid-column: 3/4;
         grid-row: 5;
-    }
-
-    nav button {
-        display: none;
-    }
-
-    nav ul#primaryNav {
-        display: flex;
-        margin-left: 2vw;
-    }
-
-    nav ul li a {
-        border: none;
     }
 
     footer {

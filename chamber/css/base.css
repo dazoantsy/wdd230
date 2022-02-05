@@ -22,7 +22,7 @@ main div {
 
 header {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 120px 1fr 120px;
     background-color: #13242A;
     color: #C5EDAC;
     font-family: 'Prompt', sans-serif;
@@ -30,6 +30,8 @@ header {
 
 header h1 {
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 1;
 }
 
 img {
@@ -50,14 +52,27 @@ nav button {
 
 nav {
     background-color: #C5EDAC;
-    grid-column: span 2;
+    grid-column: 1/4;
     grid-row: 2;
 }
 
 .displayDate {
-    grid-column: span 2;
+    grid-column: 1/4;
     grid-row: 3;
     text-align: center;
+    border: none;
+}
+
+.social {
+    grid-column: 3/4;
+    grid-row: 1;
+    border: none;
+    text-align: right;
+    display: block;
+}
+
+.social img {
+    margin-right: .4rem;
 }
 
 nav ul {
