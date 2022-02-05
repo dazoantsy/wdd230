@@ -3,6 +3,10 @@
         padding: .5rem 1rem;
     }
 
+    .spotlight3 {
+        display: block;
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
