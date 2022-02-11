@@ -22,16 +22,22 @@ main div {
 
 header {
     display: grid;
-    grid-template-columns: 120px 1fr 120px;
+    grid-template-columns: 25% 50% 25%;
     background-color: #13242A;
     color: #C5EDAC;
     font-family: 'Prompt', sans-serif;
 }
 
-header h1 {
+header p {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1;
+    font-size: 1.2rem;
+    margin: auto
+}
+
+#date {
+    font-size: 1rem;
 }
 
 img {
@@ -42,7 +48,7 @@ img {
     display: none;
 }
 
-nav button {
+button#hamburgerBtn {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
@@ -131,8 +137,21 @@ footer div.address p {
     color: white;
 }
 
+footer div.mapouter {
+    grid-column: span 2;
+    grid-row: 2;
+    margin :0 auto;
+    padding: 0;
+}
+
 footer div.foot {
     grid-column: span 2;
+    grid-row: 3;
+}
+
+.gmap_canvas {
+    margin:0;
+    padding: 0;
 }
 
 footer div p {

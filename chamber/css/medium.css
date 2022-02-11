@@ -4,6 +4,10 @@
         grid-template-columns: 200px 1fr 200px;
     }
 
+    header p {
+        font-size: 2rem;
+    }
+
     .social {
         margin-top: 1.5rem;
     }
@@ -45,6 +49,20 @@
     }
 
     footer {
-        grid-template-columns: 200px 1fr;
+        grid-template-columns: 200px 1fr 200px;
+    }
+
+    footer div.mapouter {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    footer div.foot {
+        grid-row: 2;
+        grid-column: span 3;
+    }
+
+    footer div h3 {
+        font-size: 1.5rem;
     }
 }
