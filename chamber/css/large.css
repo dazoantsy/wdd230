@@ -3,7 +3,14 @@
     header img.logo {
         grid-column: 1;
         grid-row: 1;
-        padding: .5rem 0;    }
+        padding: .5rem 0;
+    }
+
+    #message {
+        font-size: 1rem;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+    }
 
     nav button {
         display: none;

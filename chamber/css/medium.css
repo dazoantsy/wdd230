@@ -22,6 +22,10 @@
         grid-row: 1;
     }
 
+    .hero p {
+        font-size: 2rem;
+    }
+
     .news {
         grid-column: 1/4;
         grid-row: 2;
