@@ -28,7 +28,7 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 
-//
+//Message that appears on Mondays and Tuesdays
 let message
 if (weekday === 1 || weekday === 2) {
     message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";

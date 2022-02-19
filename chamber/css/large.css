@@ -59,8 +59,10 @@
     }
 
     .join {
+        text-align: center;
         grid-column: 1;
         grid-row: 3;
+        padding: 2rem;
     }
 
     .news {
