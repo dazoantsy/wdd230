@@ -34,12 +34,19 @@
     .spotlight {
         grid-column: 1/4;
         grid-row: 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .join {
         display: block;
         grid-column: 1/4;
         grid-row: 4;
+        text-align: center;
+    }
+
+    div#joinContent {
+        margin: 0 auto;
     }
 
     .event {
@@ -56,6 +63,17 @@
         grid-template-columns: 200px 1fr 200px;
     }
 
+    footer div.company {
+        text-align: left;
+        margin: .7rem;
+        padding: 1.5rem 0;
+    }
+
+    footer div div.address {
+        margin: .5rem 0 0 0;
+        padding: .5rem 0 0 0;
+    }
+
     footer div.mapouter {
         grid-row: 1;
         grid-column: 3;
@@ -67,6 +85,11 @@
     }
 
     footer div h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    img.logo {
+        width: 150px;
+        height: 150px;
     }
 }

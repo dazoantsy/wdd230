@@ -16,11 +16,11 @@
 
   <body>
     <header>
-        <img class="logo" src="images/Logo.png" alt="logo" width="100" height="100"/>
+        <img class="logo" src="images/Logo.webp" alt="logo" width="100" height="100"/>
         <p>Madagascar Chamber of Commerce</p>
         <div class="social">
-            <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="facebook" width="50" height="50"/></a>
-            <a href="https://www.youtube.com/"><img class="youtube" src="images/youtube.png" alt="youtube" width="50" height="50"/></a>
+            <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="facebook"/></a>
+            <a href="https://www.youtube.com/"><img class="youtube" src="images/youtube.png" alt="youtube"/></a>
         </div>
 
         <nav>
@@ -44,17 +44,25 @@
     <main>
         <div class="hero">
             <p>Welcome to Madagascar</p>
-            <img class="heroimg" src="images/baobabs.jpg" alt="baobabs"/>
+            <picture class="heroimg">
+                <source srcset="images/wdd230-720.jpg" media="(min-width: 560px) and (max-width: 1023px)">
+                <source srcset="images/wdd230-1080.jpg" media="(min-width: 1024px)">
+                <img src="images/wdd230-360.jpg" alt="baobabs"/>
+            </picture>
             <button class="btnJoin" type="button">Join the Chamber</button>
         </div>
         <div class="event">
             <p>Event</p>
         </div>
         <div class="weather">
-            <p>Weather</p>
+            <h2>Weather</h2>
+            <img id="cloud" src="images/meteo.png" alt="weather"/>
+            <p id="temperature"><span id="tempValue">33</span>°C</p>
+            <p id="windSpeed">Wind Speed: <span id="wsValue">2.5</span> km/h</p>
+            <p id="windChill">Wind Chill: <span id="wcValue"></span></p>
         </div>
         <div class="news">
-            <h4>News Release</h4>
+            <h2>News Release</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
@@ -77,18 +85,22 @@
             </div>
         </div>        
         <div class="join">
-            <button class="joinBtn" type="button">Join Us</button>
-            <p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p>
+            <div id="joinContent">
+                <button class="joinBtn" type="button">Join Us</button>
+                <p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p>
+            </div>
         </div>      
     </main>
 
     <footer>
-        <img class="logo" src="images/Logo.png" alt="logo" width="100" height="100"/>
-        <div class="address">
-            <h3>Chamber of Commerce of Madagascar</h3>
-            <p>Manongarivo Befandriana Avaratra</p>
-            <p>409 - MADAGASCAR</p>
-            <p>Tel: +261 34 28 742 30</p>
+        <img class="logo" src="images/Logo.webp" alt="logo"/>
+        <div class="company">
+            <p id="title">Chamber of Commerce of Madagascar</p>
+            <div class="address">
+                <p>Manongarivo Befandriana Avaratra</p>
+                <p>409 - MADAGASCAR</p>
+                <p>Tel: +261 34 28 742 30</p>
+            </div>
         </div>
         <div class="mapouter">
             <div class="gmap_canvas">
@@ -107,6 +119,7 @@
     </footer>
 
     <script src="js/scripts.js"></script>
+    <script src="js/winchill.js"></script>
 
   </body>
 

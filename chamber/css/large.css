@@ -33,6 +33,12 @@
         display: block;
     }
 
+    .spotlight {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -48,6 +54,10 @@
         grid-row: 1/3;
     }
 
+    .hero p {
+        font-size: 2.5rem;
+    }
+
     .spotlight {
         grid-column: 4/5;
         grid-row: 1/4;
@@ -59,10 +69,13 @@
     }
 
     .join {
-        text-align: center;
         grid-column: 1;
         grid-row: 3;
         padding: 2rem;
+    }
+
+    div#joinContent {
+        margin: auto 0;
     }
 
     .news {
@@ -70,16 +83,31 @@
         grid-row: 3;
     }
 
-    footer img {
+    footer img.logo {
         grid-column: 1;
         grid-row: 1/3;
         width: 12rem;
         height: 12rem;
+        width: 200px;
+        height: 200px;
     }
 
-    footer div.address {
+    footer div.company {
+        text-align: center;
         grid-column: 2;
         grid-row: 1;
+        margin: auto;
+        padding: auto;
+    }
+
+    footer div p#title {
+        font-size: 2rem;
+    }
+
+    footer div div.address {
+        margin: auto;
+        padding: auto;
+        font-size: 1.5rem;
     }
 
     footer div.mapouter {
@@ -92,27 +120,4 @@
         grid-column: 2;
         grid-row: 2;
     }
-
-    /*footer {
-        grid-template-columns: 25% 1fr 1fr;
-        justify-content: space-around;
-        font-size: 1rem;
-    }
-
-    
-
-    footer div.address {
-        grid-column: 2;
-        text-align: left;
-    }
-
-    
-
-    footer div p#footer1 {
-        margin: 2.5rem 0 0 0;
-    }
-
-    footer div p#footer2 {
-        margin: 0 0 1rem 0;
-    }*/
 }
