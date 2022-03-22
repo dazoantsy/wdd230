@@ -1,0 +1,18 @@
+main {
+    display: grid;
+}
+
+.lazy {
+    margin: 0.5em;
+    /*align-self: center;*/
+    justify-self: center;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+}
+
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
