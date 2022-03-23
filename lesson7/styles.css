@@ -1,10 +1,16 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    color: red;
+    background-color: aquamarine;
+}
+
 main {
     display: grid;
 }
 
 .lazy {
     margin: 0.5em;
-    /*align-self: center;*/
     justify-self: center;
 }
 
@@ -15,4 +21,5 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 0.5s;
+    border:  solid #261C15;
 }
