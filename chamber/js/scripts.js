@@ -67,3 +67,24 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
+
+  //Days between visits
+  let time = today.getTime();
+  let timeStored;
+  if(!localStorage.getItem('nbrOfDays')) {
+    AddToStorage();
+  } else {
+      TimeBetween();
+      AddToStorage();
+  }
+
+  function AddToStorage() {
+    localStorage.setItem('nbrOfDays', time);
+  }
+
+  function TimeBetween() {
+    let timeBtwn = time - localStorage.getItem('nbrOfDays');
+    let DaysNbr = Math.round(timeBtwn/(24*3600*1000));
+    let last_visit = document.getElementById("last_visit");
+    last_visit.innerHTML = `Last visit: ${DaysNbr} day(s)`;
+  }
