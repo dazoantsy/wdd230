@@ -12,9 +12,13 @@
         margin-top: 1.5rem;
     }
 
-    main {
+    main.index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main.discover p {
+        font-size: 1.5rem;
     }
 
     .hero {

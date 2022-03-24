@@ -20,6 +20,16 @@ h2 {
     font-family: 'Prompt', sans-serif;
 }
 
+.event {
+    /*margin: 2rem;*/
+    padding: 2rem;
+    text-align: center;
+}
+
+.news {
+    padding: 0 2rem;
+}
+
 main div {
     color: #13242A;
     background-color: #C5EDAC;
@@ -40,8 +50,15 @@ header p {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1;
-    font-size: 1.2rem;
-    margin: auto
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+p.title {
+    color: #8E010F;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 #date {
@@ -137,8 +154,14 @@ body {
     font-family: 'Dongle', sans-serif;
 }
 
-main p {
+main.index p {
     font-size: 2rem;
+}
+
+main.discover p {
+    font-size: 1.2rem;
+    padding: 0 0 1.5rem 0;
+    margin-top: 0;
 }
 
 main div.hero {

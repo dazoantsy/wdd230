@@ -39,9 +39,50 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 
-    main {
+    main.index {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    main.discover p {
+        font-size: 2rem;
+        padding: 0;
+        margin: 1.2rem;
+    }
+
+    div.places {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .left {
+        grid-column: 1;
+    }
+
+    .right {
+        grid-column: 2;
+    }
+
+    #descrition2 {
+        grid-row: 2;
+    }
+
+    #descrition4 {
+        grid-row: 4;
+    }
+
+    #descrition6 {
+        grid-row: 6;
+    }
+
+    #descrition8 {
+        grid-row: 8;
+    }
+
+    #descrition10 {
+        grid-row: 10;
     }
 
     .event {
