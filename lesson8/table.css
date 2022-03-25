@@ -44,3 +44,16 @@ tfoot td {
 tbody tr:nth-child(even) {
 	background-color: hsl(0, 0%, 93%, 1);
 }
+
+@media (max-width: 767px){
+	table{
+		font-size: 0.6rem;
+	}
+	table td{
+		padding: 2px 5px;
+	}
+
+    h1, footer p {
+        font-size: smaller;
+    }
+}
