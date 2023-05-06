@@ -1,0 +1,12 @@
+@media screen and (max-width: 720px) {
+    nav ul {
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+    header {
+        font-size: 0.75rem;
+    }
+    .colors th, .colors td {
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nunito:wght@200&family=Prompt:wght@700&display=swap');
+
+html {
+  background-color: #A7D4DC;
+  padding: 1em;
+}
+
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  main {
+    padding: 1em;
+  }
+
+header, footer {
+    background-color: #13242A;
+    color: #C5EDAC;
+    font-family: 'Prompt', sans-serif;
+    padding: 0.15em;
+    text-align: center;
+    margin: 0.5em 0;
+    border-radius: 5px;
+}
+
+h3, h4 {
+    color: #8E010F;
+    font-family: 'Prompt', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+img.logo {
+    border : 2px solid #000000;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    border: 3px blue solid;
+    font-family: 'Prompt', sans-serif;
+}
+.colors th {
+    background-color: #CEBEBE;
+    /*font-family: 'Prompt', sans-serif;*/
+    border: 1.5px blue solid;
+}
+.colors td {
+    /*width: 14.28%;
+    height: 3em;
+    font-family: 'Dongle', sans-serif;
+    /*font-size: 1.5rem;*/
+    border: 1.5px blue solid;
+    /*font-weight: bold;*/
+}
+
+.text-color1 {
+    background-color: black;
+    color: white;
+}
+.text-color2 {
+    background-color: white;
+    color: black;
+}
+.text-color3 {
+    background-color: #C5EDAC;
+    color: black;
+}
+.background1 {
+    background-color: #A7D4DC;
+    color: black;
+}
+.background2 {
+    background-color: #13242A;
+    color: white;
+}
+.accent1 {
+    background-color: #8E010F;
+    color: white;
+}
+.accent2 {
+    background-color: #CEBEBE;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #C5EDAC;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #13242A;
+    text-align: center;
+    padding: 5px;
+    transition: background 0.25s, box-shadow 0.15s;
+}
+
+nav ul li a:hover {
+    color: #8E010F;
+    background: #CEBEBE;
+    box-shadow: 0px 4px 0px 0px #8E010F;
+}
