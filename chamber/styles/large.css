@@ -68,6 +68,10 @@
         padding: 2rem;
     }
 
+    div#joinContent {
+        margin: auto 0;
+    }
+
     .news {
         grid-column: 2/4;
         grid-row: 3;
