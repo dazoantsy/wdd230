@@ -91,7 +91,7 @@
         grid-column: 2;
         grid-row: 1;
         margin: auto;
-        padding: auto;
+        /*padding: auto;*/
     }
 
     footer div p#title {
@@ -100,7 +100,7 @@
 
     footer div div.address {
         margin: auto;
-        padding: auto;
+        /*padding: auto;*/
         font-size: 1.5rem;
     }
 
