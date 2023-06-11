@@ -1,0 +1,25 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    color: red;
+    background-color: aquamarine;
+}
+
+main {
+    display: grid;
+}
+
+.lazy {
+    margin: 0.5em;
+    justify-self: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border:  solid #261C15;
+}
