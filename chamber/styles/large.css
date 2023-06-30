@@ -312,4 +312,15 @@
         grid-column: 2;
         grid-row: 2;
     }
+    .term{
+        padding-left: 30px;
+    }
+    .term::before{
+        top: 5px;
+        border-radius: 0px !important;
+    }
+    .term::after{
+        top: 11px !important;
+    }
+    
 }
