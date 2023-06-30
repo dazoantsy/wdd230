@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chamber of Commerce Assignment">
+    <title>Madagascar Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nunito:wght@200&family=Prompt:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+
+  <body>
+    <header>
+        <img class="logo" src="images/Logo.webp" alt="logo" width="100" height="100"/>
+        <p class="company_name">Madagascar Chamber of Commerce</p>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="facebook"/></a>
+            <a href="https://www.youtube.com/"><img class="youtube" src="images/youtube.png" alt="youtube"/></a>
+        </div>
+
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html"><u>Join</u></a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>     
+        </nav>                         
+
+        <div class="displayDate">
+            <p id="date"></p>
+            <p id="last_visit"></p>
+            <p id="message"></p>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="joinform">
+            <form action="thankyou.html" method="get">
+                <div class="banner">
+                    <h2>Join Us!</h2>
+                </div>
+                <div class="colums">
+                    <div class="item">
+                    <label for="fname">First Name<span>*</span></label>
+                    <input id="fname" type="text" name="fname" required/>
+                    </div>
+                    <div class="item">
+                    <label for="lname">Last Name<span>*</span></label>
+                    <input id="lname" type="text" name="lname" required/>
+                    </div>
+                    <div class="item">
+                    <label for="position">Business Position Title</label>
+                    <input id="position" type="text"   name="position" pattern="([A-z0-9À-ž\s]){7,}"/>
+                    </div>
+                    <div class="item">
+                    <label for="eaddress">Email Address<span>*</span></label>
+                    <input id="eaddress" type="text"   name="eaddress" required placeholder="xxxx@gmail.com"/>
+                    </div>
+                    <div class="item">
+                    <label for="phone">Phone<span>*</span></label>
+                    <input id="phone" type="tel"   name="phone" required placeholder="032 12 345 67"/>
+                    </div>
+                    <div class="item">
+                    <label for="business">Business Name<span>*</span></label>
+                    <input id="business" type="text"   name="business" required/>
+                    </div>
+                </div>
+                <div class="question">
+                    <label><b>Membership Level</b></label>
+                    <div class="question-answer">
+                        
+                            <input type="radio" value="none" id="radio_1" name="type"/>
+                            <label for="radio_1" class="radio"><span>NP (for non profit organizations)</span></label>
+                        
+                        
+                            <input  type="radio" value="none" id="radio_2" name="type"/>
+                            <label for="radio_2" class="radio"><span>Bronze</span></label>
+                        
+                        
+                            <input  type="radio" value="none" id="radio_3" name="type"/>
+                            <label for="radio_3" class="radio"><span>Silver</span></label>
+                        
+                        
+                            <input  type="radio" value="none" id="radio_4" name="type"/>
+                            <label for="radio_4" class="radio"><span>Gold</span></label>
+                        
+                    </div>
+                </div>
+                <div class="bdescription">
+                    <label for="description"><b>Business Description:</b></label>
+                    <textarea id="destination" name="description" rows="4" cols="50"></textarea>
+                </div>
+                <div class="submission">
+                <h2>Terms and Conditions</h2>
+                <input type="checkbox" name="checkbox1">
+                <label>You consent to receive communications from us electronically. 
+                    We will communicate with you by e-mail or phone. You agree 
+                    that all agreements, notices, disclosures and other communications 
+                    that we provide to you electronically satisfy any legal requirement 
+                    that such communications be in writing.</label>
+                </div>
+                
+                <button class="btn-block" type="submit" href="/">Submit</button>
+                
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <img class="logo" src="images/Logo.webp" alt="logo"/>
+        <div class="company">
+            <p id="title">Chamber of Commerce of Madagascar</p>
+            <div class="address">
+                <p>Manongarivo Befandriana Avaratra</p>
+                <p>409 - MADAGASCAR</p>
+                <p>Tel: +261 34 28 742 30</p>
+            </div>
+        </div>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="200" height="200" id="gmap_canvas" title="map" 
+                src="https://maps.google.com/maps?q=-15.254480,%2048.537815&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+                <a href="https://fmovies-online.net">fmovies</a>
+                <a href="https://www.embedgooglemap.net">embed a google map</a>
+            </div>
+        </div>
+        <div class="foot">
+            <p id="footer1">&copy; 2023 | Njato Harizo RAGODONANDRASANA | dazoantsy@gmail.com</p>
+            <p id="footer2"></p>
+        </div>
+    
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+  </html>

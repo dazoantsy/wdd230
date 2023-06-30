@@ -14,11 +14,52 @@ div {
     margin: .5rem;
     padding: .5rem;
 }
+.h1{
+    font-size: 2rem;
+    padding: 0;
+    margin: 1.2rem;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #8E010F;
+}
+.name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .name-item input, .name-item div {
+    width: calc(50% - 20px);
+    }
+    .name-item div input {
+    width:97%;}
+    .name-item div label {
+    display:block;
+    padding-bottom:5px;
+    }
 
 h2 {
     color: #8E010F;
     font-family: 'Prompt', sans-serif;
 }
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+button {
+width: 150px;
+padding: 10px;
+border: none;
+border-radius: 5px; 
+background:  #13242A;
+font-size: 16px;
+color: #fff;
+cursor: pointer;
+}
+button:hover {
+background:  #a3c2c2;
+}
+
 
 .event {
     /*margin: 2rem;*/
@@ -30,7 +71,7 @@ h2 {
     padding: 0 2rem;
 }
 
-main div {
+main div:not(.no-shadow) {
     color: #13242A;
     background-color: #C5EDAC;
     box-shadow: 3px 4px 29px 1px rgba(0,0,0,0.73);
@@ -349,4 +390,24 @@ iframe {
     border: 0;
     overflow: hidden;
     margin: 0;
+}
+textarea, input:not([type="radio"]):not([type="checkbox"]){
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+label:not(.radio){
+    font-size: 2rem;
+    line-height: 1;
+}
+label.radio, label.term{
+    font-size: 1.6rem;
+}
+.px-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn-block{
+    width: 100%;
 }
