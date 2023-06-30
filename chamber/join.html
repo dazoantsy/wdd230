@@ -43,41 +43,39 @@
     </header>
 
     <main>
+        <h1 class="h1">Join Us!</h1>
         <div class="joinform">
             <form action="thankyou.html" method="get">
-                <div class="banner">
-                    <h2>Join Us!</h2>
-                </div>
                 <div class="colums">
-                    <div class="item">
+                    <div class="item no-shadow">
                     <label for="fname">First Name<span>*</span></label>
                     <input id="fname" type="text" name="fname" required/>
                     </div>
-                    <div class="item">
+                    <div class="item no-shadow">
                     <label for="lname">Last Name<span>*</span></label>
                     <input id="lname" type="text" name="lname" required/>
                     </div>
-                    <div class="item">
+                    <div class="item no-shadow">
                     <label for="position">Business Position Title</label>
                     <input id="position" type="text"   name="position" pattern="([A-z0-9À-ž\s]){7,}"/>
                     </div>
-                    <div class="item">
+                    <div class="item no-shadow">
                     <label for="eaddress">Email Address<span>*</span></label>
                     <input id="eaddress" type="text"   name="eaddress" required placeholder="xxxx@gmail.com"/>
                     </div>
-                    <div class="item">
+                    <div class="item no-shadow">
                     <label for="phone">Phone<span>*</span></label>
                     <input id="phone" type="tel"   name="phone" required placeholder="032 12 345 67"/>
                     </div>
-                    <div class="item">
+                    <div class="item no-shadow">
                     <label for="business">Business Name<span>*</span></label>
                     <input id="business" type="text"   name="business" required/>
                     </div>
                 </div>
                 <div class="question">
-                    <label><b>Membership Level</b></label>
-                    <div class="question-answer">
-                        
+                    
+                    <div class="question-answer no-shadow">
+                        <label><b>Membership Level</b></label>
                             <input type="radio" value="none" id="radio_1" name="type"/>
                             <label for="radio_1" class="radio"><span>NP (for non profit organizations)</span></label>
                         
@@ -96,20 +94,27 @@
                     </div>
                 </div>
                 <div class="bdescription">
+                    <div class="no-shadow">
                     <label for="description"><b>Business Description:</b></label>
-                    <textarea id="destination" name="description" rows="4" cols="50"></textarea>
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                    </div>
                 </div>
                 <div class="submission">
-                <h2>Terms and Conditions</h2>
-                <input type="checkbox" name="checkbox1">
-                <label>You consent to receive communications from us electronically. 
-                    We will communicate with you by e-mail or phone. You agree 
-                    that all agreements, notices, disclosures and other communications 
-                    that we provide to you electronically satisfy any legal requirement 
-                    that such communications be in writing.</label>
+                    <div class="no-shadow">
+                        <h2>Terms and Conditions</h2>
+                        <input type="checkbox" name="checkbox1">
+                        <label class="term">You consent to receive communications from us electronically. 
+                            We will communicate with you by e-mail or phone. You agree 
+                            that all agreements, notices, disclosures and other communications 
+                            that we provide to you electronically satisfy any legal requirement 
+                            that such communications be in writing.</label>
+                    </div>              
+                </div>
+                <div class="no-shadow px-0">
+                        <button class="btn-block joinBtn" type="submit" >Submit</button>
                 </div>
                 
-                <button class="btn-block" type="submit" href="/">Submit</button>
+                
                 
             </form>
         </div>
