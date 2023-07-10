@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;700&display=swap');
+html {
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: #F0F0F0;
+}
+
+header, footer {
+    text-align: center;
+    color: #F45050;
+}
+
+.latter {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 2px;
+    text-align: center;
+    border-bottom: 5px solid rgb(15, 1, 1);
+    background-color: rgb(101, 85, 41);
+
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    text-align: center;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.card {
+    border: 4px double #F45050;
+    box-shadow: 0 0 10px #0b0a0a;
+    background-color: #F9D949;
+    padding: 10px;
+}
+.imgs {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 20px #222222;
+    height: 200px;
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: rgb(101, 85, 41);
+}
+.imgs:hover {
+    opacity: 0.5;
+}
+.names {
+    color: #3C486B;
+    text-shadow: 2px 2px 5px rgb(248, 250, 251);
+}
