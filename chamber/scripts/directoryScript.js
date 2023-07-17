@@ -1,4 +1,4 @@
-const url = 'wdd230/chamber/data.json';
+const url = 'https://dazoantsy.github.io/wdd230/chamber/data.json';
 getBusinessData();
 
 async function getBusinessData() {
