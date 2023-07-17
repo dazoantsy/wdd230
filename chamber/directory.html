@@ -44,57 +44,16 @@
 
 
     <main class="index">
-        <div class="hero">
-            <p>Welcome to Madagascar</p>
-            <picture class="heroimg">
-                <source srcset="images\baobabs-720.jpg" media="(min-width: 560px) and (max-width: 1023px)">
-                <source srcset="images\baobabs.jpg" media="(min-width: 1024px)">
-                <img src="images\baobabs-360.jpg" alt="baobabs"/>
-            </picture>
-            <button class="btnJoin" type="button">Join the Chamber</button>
+        <p class="title">10 places to visit in Madagascar</p>
+
+        <div class="grid-list">
+            <button id="grid-button">⏹️Grid</button>
+            <button id="list-button">📄List</button>
         </div>
-        <div class="event">
-            <h2><u>Rocade Iarivo</u></h2>
-            <p>
-                Opening ceremony of the road "Rocade Iarivo" this Friday at 10 am local.
-            </p>
+    
+        <div class="gridlist">
+            <div class="cards"></div>
         </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <img id="cloud" src="images/meteo.png" alt="weather"/>
-            <p id="temperature"><span id="tempValue">33</span>°C</p>
-            <p id="windSpeed">Wind Speed: <span id="wsValue">2.5</span> km/h</p>
-            <p id="windChill">Wind Chill: <span id="wcValue"></span></p>
-        </div>
-        <div class="news">
-            <h2>News Release</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-                est laborum.
-            </p>
-        </div>
-        <div class="spotlight">
-            <div class="spotlight1">
-                <h2>spotlight1</h2>
-            </div>
-            <div class="spotlight2">
-                <h2>spotlight2</h2>
-            </div>
-            <div class="spotlight3">
-                <h2>spotlight3</h2>
-            </div>
-        </div>        
-        <div class="join">
-            <div id="joinContent">
-                <button class="joinBtn" type="button">Join Us</button>
-                <p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p>
-            </div>
-        </div>      
     </main>
 
     <footer>
@@ -125,6 +84,7 @@
 
     <script src="scripts/script.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/directoryScript.js"></script>
 
   </body>
 
