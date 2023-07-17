@@ -27,7 +27,7 @@ async function getBusinessData() {
       h2.textContent = `${busin.name}`;
       address.textContent = `${busin.address}`;
       image.imageurl = busin.imageurl;
-      phonenumber.textContent = `${busin.phonenumber}`;
+      phonenumber.textContent = `Tel: ${busin.phonenumber}`;
       website.textContent = `${busin.website}`;
       membershiplevel.textContent = `Membership Level: ${busin.membershiplevel}`;
 
