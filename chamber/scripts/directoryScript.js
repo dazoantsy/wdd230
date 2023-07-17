@@ -4,14 +4,13 @@ getBusinessData();
 async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
     displayBusiness(data.business);
   }
   
 
 
   const displayBusiness = (business) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
+    const cards = document.querySelector('section.cards'); // select the output container element
   
     business.forEach((busin) => {
       // Create elements to add to the div.cards element
@@ -24,12 +23,12 @@ async function getBusinessData() {
       let membershiplevel = document.createElement('p');
       let image = document.createElement('img');
   
-      // Build the h2 content out to show the prophet's full name - finish the template string
+      
       h2.textContent = `${busin.name}`;
-      address.textContent = `Address: ${busin.address}`;
+      address.textContent = `${busin.address}`;
       image.imageurl = busin.imageurl;
-      phonenumber.textContent = `Phone Number: ${busin.phonenumber}`;
-      website.textContent = `Website: ${busin.website}`;
+      phonenumber.textContent = `${busin.phonenumber}`;
+      website.textContent = `${busin.website}`;
       membershiplevel.textContent = `Membership Level: ${busin.membershiplevel}`;
 
       card.setAttribute('class', 'card');
@@ -58,8 +57,8 @@ async function getBusinessData() {
 
   //---GRID / LIST-------------------
 
-  const gridbutton = document.querySelector("#grid-button");
-  const listbutton = document.querySelector("#list-button");
+  const gridbutton = document.querySelector("#grid");
+  const listbutton = document.querySelector("#list");
   const display = document.querySelector(".cards");
   
   
