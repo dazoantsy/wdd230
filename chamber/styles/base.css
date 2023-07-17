@@ -443,8 +443,7 @@ input[type="checkbox"]:checked + .term::after {
     background-color: #778DA9;
     padding: 20px;
 }
-.im {
-    
+.im {    
     max-width: 200px;
     height: 100px;
 }
@@ -454,6 +453,11 @@ input[type="checkbox"]:checked + .term::after {
 .names {
     color: rgb(248, 250, 251);
     text-shadow: 2px 2px 5px rgb(10, 10, 10);
+}
+
+.cards p {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .list {
@@ -466,6 +470,7 @@ input[type="checkbox"]:checked + .term::after {
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
+    text-align: left;
 }
 
 .list section > * {

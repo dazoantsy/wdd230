@@ -2,15 +2,15 @@
     "business": [
       {
         "name": "Accès Banque Madagascar",
-        "address": "Bâtiment C2 Explorer Business Park Ankorondrano Antananarivo 101",
+        "address": "Bâtiment C2 Explorer Business Park Ankorondrano, Antananarivo 101",
         "phonenumber": "+261 20 22 322 34",
-        "website": "https://www.facebook.com/ariaacademymadagascar",
+        "website": "https://www.accesbanque.mg/",
         "imageurl": "images/businesses/acces-banque.png",
-        "membershiplevel": "http://www.accesbanque.mg/"
+        "membershiplevel": "Gold"
       },
       {
         "name": "Acep Madagascar",
-        "address": "120, rue Rainandriamampandry Faravohitra Antananarivo 101",
+        "address": "120, rue Rainandriamampandry Faravohitra, Antananarivo 101",
         "phonenumber": "+261 20 22 374 60",
         "website": "http://www.acep.mg/",
         "imageurl": "images/businesses/acep.png",
@@ -18,7 +18,7 @@
       },
       {
         "name": "Air Liquide Madagascar",
-        "address": "167 M Anosivavaka Ambohimanarina BP 53 Antananarivo 101",
+        "address": "167 M Anosivavaka Ambohimanarina, Antananarivo 101",
         "phonenumber": "+261 20 23 225 06",
         "website": "http://www.airliquide.com/",
         "imageurl": "images/businesses/air-liquide.png",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Allianz Madagascar Assurance",
-        "address": "Tour Zital Ankorondrano BP 8619 Antananarivo 101",
+        "address": "Tour Zital Ankorondrano, Antananarivo 101",
         "phonenumber": "+261 20 22 579 00",
         "website": "http://www.allianz.mg/",
         "imageurl": "images/businesses/allianz-logo.png",
@@ -34,7 +34,7 @@
       },
       {
         "name": "ATOS",
-        "address": "12, rue Indira Gandhi Tsaralalàna Antananarivo 101",
+        "address": "12, rue Indira Gandhi Tsaralalàna, Antananarivo 101",
         "phonenumber": "+261 20 22 224 07",
         "website": "http://www.atos.net/",
         "imageurl": "images/businesses/atos.png",
@@ -42,7 +42,7 @@
       },
       {
         "name": "Avitech",
-        "address": "Lot K7-97 bis II A Mamory Antananarivo 105",
+        "address": "Lot K7-97 bis II A Mamory, Antananarivo 105",
         "phonenumber": "+261 20 22 445 83",
         "website": "http://eclosia.mg/",
         "imageurl": "images/businesses/avitech.jpg",
@@ -50,7 +50,7 @@
       },
       {
         "name": "BOA - MADAGASCAR",
-        "address": "Immeuble Financial District Zone Galaxy Andraharo 101 Antananarivo",
+        "address": "Immeuble Financial District Zone Galaxy Andraharo, Antananarivo 101",
         "phonenumber": "+261 20 23 391 00",
         "website": "http://boamadagascar.com/",
         "imageurl": "images/businesses/boa.jpg",
@@ -58,7 +58,7 @@
       },
       {
         "name": "BMOI",
-        "address": "Place de l`Indépendance Antaninarenina 101 Antananarivo",
+        "address": "Place de l`Indépendance Antaninarenina, Antananarivo 101",
         "phonenumber": "+261 20 22 346 09",
         "website": "http://www.bmoinet.net/",
         "imageurl": "images/businesses/bmoi.png",
@@ -66,7 +66,7 @@
       },
       {
         "name": "DHL",
-        "address": "Route des Hydrocarbures Ankorondrano Antananarivo 101",
+        "address": "Route des Hydrocarbures Ankorondrano, Antananarivo 101",
         "phonenumber": "+261 20 22 428 39",
         "website": "http://www.dhl.mg/",
         "imageurl": "images/businesses/DHL.jpg",
