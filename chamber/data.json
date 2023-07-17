@@ -5,7 +5,7 @@
         "address": "Bâtiment C2 Explorer Business Park Ankorondrano Antananarivo 101",
         "phonenumber": "+261 20 22 322 34",
         "website": "https://www.facebook.com/ariaacademymadagascar",
-        "imageurl": "images/Dominion Energy.png",
+        "imageurl": "images/businesses/acces-banque.png",
         "membershiplevel": "http://www.accesbanque.mg/"
       },
       {
@@ -13,7 +13,7 @@
         "address": "120, rue Rainandriamampandry Faravohitra Antananarivo 101",
         "phonenumber": "+261 20 22 374 60",
         "website": "http://www.acep.mg/",
-        "imageurl": "images/alexanders-logo.jpg",
+        "imageurl": "images/businesses/acces-banque.png",
         "membershiplevel": "Silver"
       },
       {
@@ -21,7 +21,7 @@
         "address": "167 M Anosivavaka Ambohimanarina BP 53 Antananarivo 101",
         "phonenumber": "+261 20 23 225 06",
         "website": "http://www.airliquide.com/",
-        "imageurl": "images/Networkr.png",
+        "imageurl": "images/businesses/air-liquide.png",
         "membershiplevel": "Bronze"
       },
       {
@@ -29,7 +29,7 @@
         "address": "Tour Zital Ankorondrano BP 8619 Antananarivo 101",
         "phonenumber": "+261 20 22 579 00",
         "website": "http://www.allianz.mg/",
-        "imageurl": "images/ancestry.jpeg",
+        "imageurl": "images/businesses/allianz-logo.png",
         "membershiplevel": "Gold"
       },
       {
@@ -37,7 +37,7 @@
         "address": "12, rue Indira Gandhi Tsaralalàna Antananarivo 101",
         "phonenumber": "+261 20 22 224 07",
         "website": "http://www.atos.net/",
-        "imageurl": "images/Captain-Electric.png",
+        "imageurl": "images/businesses/atos.png",
         "membershiplevel": "Gold"
       },
       {
@@ -45,7 +45,7 @@
         "address": "Lot K7-97 bis II A Mamory Antananarivo 105",
         "phonenumber": "+261 20 22 445 83",
         "website": "http://eclosia.mg/",
-        "imageurl": "images/Charter One.png",
+        "imageurl": "images/businesses/avitech.jpg",
         "membershiplevel": "Bronze"
       },
       {
@@ -53,7 +53,7 @@
         "address": "Immeuble Financial District Zone Galaxy Andraharo 101 Antananarivo",
         "phonenumber": "+261 20 23 391 00",
         "website": "http://boamadagascar.com/",
-        "imageurl": "images/Costco.png",
+        "imageurl": "images/businesses/boa.jpg",
         "membershiplevel": "Gold"
       },
       {
@@ -61,7 +61,7 @@
         "address": "Place de l`Indépendance Antaninarenina 101 Antananarivo",
         "phonenumber": "+261 20 22 346 09",
         "website": "http://www.bmoinet.net/",
-        "imageurl": "images/Herald.jpeg",
+        "imageurl": "images/businesses/bmoi.png",
         "membershiplevel": "Silver"
       },
       {
@@ -69,7 +69,7 @@
         "address": "Route des Hydrocarbures Ankorondrano Antananarivo 101",
         "phonenumber": "+261 20 22 428 39",
         "website": "http://www.dhl.mg/",
-        "imageurl": "images/dentors.jpeg",
+        "imageurl": "images/businesses/DHL.jpg",
         "membershiplevel": "Silver"
       }
     ]

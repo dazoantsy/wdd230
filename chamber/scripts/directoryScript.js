@@ -1,4 +1,4 @@
-const url = 'https://vicriesp.github.io/wdd230/chamber/data.json';
+const url = 'wdd230/chamber/data.json';
 getBusinessData();
 
 async function getBusinessData() {
@@ -62,7 +62,6 @@ async function getBusinessData() {
   const listbutton = document.querySelector("#list-button");
   const display = document.querySelector(".cards");
   
-  // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
   
   gridbutton.addEventListener("click", () => {
     
@@ -70,7 +69,7 @@ async function getBusinessData() {
     display.classList.remove("list");
   });
   
-  listbutton.addEventListener("click", showList); // example using defined function
+  listbutton.addEventListener("click", showList); 
   
   function showList() {
     display.classList.add("list");
