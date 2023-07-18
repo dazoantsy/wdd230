@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;700&display=swap');
+html {
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: #f8f694;
+    color: rgb(4, 4, 92);
+    text-align: center;
+}
