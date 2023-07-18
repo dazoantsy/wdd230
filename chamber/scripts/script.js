@@ -88,3 +88,5 @@ if('IntersectionObserver' in window) {
     let last_visit = document.getElementById("last_visit");
     last_visit.innerHTML = `Last visit: ${DaysNbr} day(s)`;
   }
+  
+ 

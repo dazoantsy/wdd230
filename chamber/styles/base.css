@@ -68,7 +68,7 @@ background:  #a3c2c2;
 }
 
 .news {
-    padding: 0 2rem;
+    padding: 1rem 1rem;
 }
 
 main div:not(.no-shadow) {
@@ -196,11 +196,11 @@ body {
 }
 
 main.index p {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 main.discover p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 0 0 1.5rem 0;
     margin-top: 0;
 }
@@ -257,23 +257,33 @@ button.btnJoin:active {
 }
 
 .weather {
-    display: grid;
-    grid-template-columns: 50% 50%;
     text-align: center;
 }
-
+.weather-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
 .weather h2 {
     grid-column: 1/3;
 }
-
+#weather-icon{
+    width: 150px;
+}
 p#temperature {
     grid-column: 2/3;
     grid-row: 2/3;
     margin: auto 0;
     font-size: 2rem;
     font-family: 'Prompt', sans-serif;
+    line-height: 1;
 }
-
+#captionDesc{
+    font-size: 1.2rem;
+}
 #tempValue {
     color: #13242A;
 }
@@ -306,8 +316,7 @@ footer {
     padding: .8rem;
     font-size: smaller;
     text-align: center;
-    display: grid;
-    grid-template-columns: 100px 1fr;
+    display: block;
 }
 
 .joinBtn {
@@ -425,27 +434,30 @@ input[type="checkbox"]:checked + .term::after {
 }
 
 .menu button {
-	padding: 1rem;
+	padding: 0.8rem 1rem 0;
 	font-weight: 700;
+    font-size: 2rem;
+}
+.menu button:not(:last-child){
+    margin-right: 15px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    text-align: center;
-    padding: 20px;
-    column-gap: 20px;
-    row-gap: 20px;
+.cards{
+    padding-top: 10px;
 }
 .card {
     border: 4px solid rgb(249, 245, 245);
     box-shadow: 0 0 10px #0b0a0a;
     background-color: #778DA9;
     padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 .im {    
     max-width: 200px;
     height: 100px;
+    width: 100%;
+    object-fit: contain;
 }
 .im:hover {
     opacity: 0.5;
@@ -456,27 +468,18 @@ input[type="checkbox"]:checked + .term::after {
 }
 
 .cards p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
-
-.list {
-	display: flex;
-	flex-direction: column;
+.spotlight .names{
+    margin-bottom: 0 !important;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
 }
-
-.list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
-    text-align: left;
+.spotlight h2{
+    text-align: center;
 }
-
-.list section > * {
-	margin: 0 1rem;
-}
-
-.list section img {
-	display: none;
+.menu, .cards section img{
+    display: none;
 }

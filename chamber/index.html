@@ -30,7 +30,7 @@
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
             </ul>     
         </nav>                         
 
@@ -51,7 +51,7 @@
                 <source srcset="images\baobabs.jpg" media="(min-width: 1024px)">
                 <img src="images\baobabs-360.jpg" alt="baobabs"/>
             </picture>
-            <button class="btnJoin" type="button">Join the Chamber</button>
+            <button class="btnJoin" type="button" onclick="window.location.href = 'join.html';">Join the Chamber</button>
         </div>
         <div class="event">
             <h2><u>Rocade Iarivo</u></h2>
@@ -61,9 +61,11 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <img id="cloud" src="images/meteo.png" alt="weather"/>
-            <p id="temperature"><span id="tempValue">33</span>°C</p>
-            <p id="windSpeed">Wind Speed: <span id="wsValue">2.5</span> km/h</p>
+            <div class="weather-resume no-shadow">
+                <img id="weather-icon" src="" alt="weather"/>
+                <p id="temperature"><span id="current-temp">33</span>°C <br><span id="captionDesc"></span></p>
+            </div>
+            <p id="windSpeed">Wind Speed: <span id="wsValue">0</span> km/h</p>
             <p id="windChill">Wind Chill: <span id="wcValue"></span></p>
         </div>
         <div class="news">
@@ -80,18 +82,21 @@
         </div>
         <div class="spotlight">
             <div class="spotlight1">
-                <h2>spotlight1</h2>
+                <h2>Gold Member</h2>
+                <div class="goldmember no-shadow"></div>
             </div>
             <div class="spotlight2">
-                <h2>spotlight2</h2>
+                <h2>Silver Member</h2>
+                <div class="silvermember no-shadow"></div>
             </div>
             <div class="spotlight3">
-                <h2>spotlight3</h2>
+                <h2>Bronze Member</h2>
+                <div class="bronzemember no-shadow"></div>
             </div>
         </div>        
         <div class="join">
             <div id="joinContent">
-                <button class="joinBtn" type="button">Join Us</button>
+                <button class="joinBtn" type="button" onclick="window.location.href = 'join.html';">Join Us</button>
                 <p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p>
             </div>
         </div>      
@@ -125,6 +130,7 @@
 
     <script src="scripts/script.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/directoryScript.js"></script>
 
   </body>
 

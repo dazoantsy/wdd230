@@ -58,11 +58,6 @@
         grid-row: 5;
     }
 
-    .weather {
-        grid-column: 3/4;
-        grid-row: 5;
-    }
-
     footer {
         grid-template-columns: 200px 1fr 200px;
     }
@@ -105,5 +100,53 @@
     }
     .term::after{
         top: 11px !important;
+    }
+    .cards .card{
+        margin-bottom: 1rem;
+    }
+    .cards{
+        padding: 20px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        text-align: center;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .list section > *{
+        text-align: left;
+    }
+    .list section img { 
+        float: left;
+        display: block;
+    }
+    .list section .names, list section .phonenumber, .list section .phonenumber,  .list section .website, .list section .address, .list section .membershiplevel { 
+        text-align: left;
+        margin-left: 260px;
+    }
+    .list section .phonenumber { 
+        grid-area: 3 / 1 / 4 / 2; 
+    }
+    .list section > * {
+        margin: 0 1rem;
+    }
+    .menu{
+        display: block;
+    }
+    .cards p {
+        font-size: 1.88rem;
+    }
+    .cards section img{
+        display: inline-block;
+    }
+    footer{
+        display: grid;
+    }
+    main.index p {
+        font-size: 2rem;
+    }
+    .news {
+        padding: 0 2rem;
     }
 }

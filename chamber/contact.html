@@ -28,9 +28,9 @@
             <ul id="primaryNav">
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html"><u>Directory</u></a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html"><u>Contact</u></a></li>
             </ul>     
         </nav>                         
 
@@ -42,18 +42,42 @@
 
     </header>
 
-
-    <main class="directory">
-        <p class="title">Business Directory</p>
-
-        <div class="menu">
-            <button id="grid">⏹️Grid</button>
-            <button id="list">📄List</button>
+    <main>
+        <h1 class="h1">Contact Us!</h1>
+        <div class="joinform">
+            <form action="thankyou.html" method="get">
+                <div class="colums">
+                    <div class="item no-shadow">
+                    <label for="fname">First Name<span>*</span></label>
+                    <input id="fname" type="text" name="fname" required/>
+                    </div>
+                    <div class="item no-shadow">
+                    <label for="lname">Last Name<span>*</span></label>
+                    <input id="lname" type="text" name="lname" required/>
+                    </div>
+                    <div class="item no-shadow">
+                    <label for="eaddress">Email Address<span>*</span></label>
+                    <input id="eaddress" type="text"   name="eaddress" required placeholder="xxxx@gmail.com"/>
+                    </div>
+                    <div class="item no-shadow">
+                    <label for="phone">Phone<span>*</span></label>
+                    <input id="phone" type="tel"   name="phone" required placeholder="032 12 345 67"/>
+                    </div>
+                </div>
+                <div class="bdescription">
+                    <div class="no-shadow">
+                    <label for="description"><b>Message:</b></label>
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                    </div>
+                </div>
+                <div class="no-shadow px-0">
+                        <button class="btn-block joinBtn" type="submit" >Send</button>
+                </div>
+                
+                
+                
+            </form>
         </div>
-        <div class="grid">
-            <section class="cards"></section>
-        </div>
-
     </main>
 
     <footer>
@@ -83,8 +107,5 @@
     </footer>
 
     <script src="scripts/script.js"></script>
-    <script src="scripts/directoryScript.js"></script>
-
   </body>
-
-</html>
+  </html>
