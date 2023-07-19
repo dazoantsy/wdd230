@@ -1,0 +1,73 @@
+$green: #4b8503;
+$black: #424a3d;
+$orange: #fb5e00;
+$dancing: 'Dancing Script', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$philosopher : 'Philosopher', sans-serif;
+@media only screen and (min-width: 1280px) {
+    .formResult-container{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 40px;
+    }
+    .grid-2{
+    	grid-column-gap:60px;
+    }
+    .gap-30{
+        grid-column-gap:30px;
+    }
+    .grid-4{
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap:30px;
+    }
+    .section-container, .header-container{
+    	max-width: 1250px;
+    }
+    .order-1{
+    	order: 1;
+    }
+    .footer{
+    	text-align: left;
+    	padding-top: 40px;
+    	.footer-container{
+    		max-width: 1250px;
+    	}
+    	.footer-title{
+    		&:after{
+    			margin-top: 5px;
+    			margin-left: 0;
+    		}
+    	}
+    	.grid-mobile{
+	        .resume{
+	        	margin-top: 20px;
+	            order: 1;
+	        }
+	    }
+	    .sociallist{
+	    	-webkit-box-pack: start;
+	        -ms-flex-pack: start;
+	        justify-content: start;
+	    }
+	    .information{
+	    	display: block;
+	    }
+	    .min-width300{
+	    	min-width: 300px;
+	    }
+	    .no-brlarge{
+	    	display: none;
+	    }
+	    .footer-bottom{
+	    	font-size: 14px;
+	    }
+    }
+    .card{
+        .card-date{
+            font-size: 24px;
+        }
+    }
+    .text-center{
+        text-align: center;
+    }
+}
