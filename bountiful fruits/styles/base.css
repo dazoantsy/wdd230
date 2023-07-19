@@ -56,8 +56,10 @@ h2:after, .section-title:after, .h2:after {
   width: auto;
   height: 25px;
   display: block;
-  fill: #424a3d;
   object-position: bottom;
+}
+.sociallist li a svg g{
+  fill: #424a3d;
 }
 .sociallist li a:hover svg {
   fill: #fb5e00;
